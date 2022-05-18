@@ -5,7 +5,7 @@ import sqlite3
 from tqdm.notebook import tqdm
 
 
-data_path = '../data/'
+data_path = '../report data/'
 db_path = './'
 
 
