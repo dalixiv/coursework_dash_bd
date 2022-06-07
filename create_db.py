@@ -11,9 +11,7 @@ db_path = './'
 
 list_of_pathes = glob(f'{data_path}*.xlsx')
 list_of_pathes += glob(f'{data_path}*.csv')
-list_of_pathes.remove(f'{data_path}Publication Word Cloud - Development.xlsx')
-list_of_pathes.remove(f'{data_path}Publication Word Cloud - Development.csv')
-list_of_pathes.remove(f'{data_path}ikt.xlsx')
+
 
 
 con = sqlite3.connect(f'{db_path}data.db')
